@@ -8,7 +8,6 @@
   }
   
   
-  
   header{
     position: fixed;
     width: 100%;
@@ -143,6 +142,7 @@
       display: flex;
       flex-wrap: wrap;
       flex-direction: row;
+      justify-content: center;
       margin: 40px;
     }
     
@@ -150,7 +150,6 @@
     .fighter-container .image {
       display: flex; 
       flex-direction: column;
-      justify-content: center;
       align-items: center;
       border: 2px solid white;
       box-sizing: border-box;
@@ -162,9 +161,13 @@
     }
     
     .fighter-container img{
-      width: 200px;
+      width: 250px;
       height: 200px;
       
+    }
+
+    .fighter-container h2 {
+      margin-top: 10px;
     }
     
     .fighter-content {
@@ -176,10 +179,9 @@
     }
     
     .fighter-container .fighter-content {
-  
       z-index: 5;
       width: 70vw;
-    max-height: 90vh;
+      max-height: 90vh;
       background: white;
       margin: auto;
       position: fixed;
