@@ -87,6 +87,7 @@
     justify-content: center;
     align-items: center;
     height: 100vh;
+    z-index: 9999;
   }
   
   /* home section  */
@@ -186,17 +187,16 @@
     }
     
     .fighter-container .fighter-content {
-  
       z-index: 5;
       width: 70vw;
-    max-height: 90vh;
+      max-height: 90vh;
       background: white;
       margin: auto;
       position: fixed;
-      left: 0;
+      /* left: 0;
       right: 0;
       top: 0;
-      bottom: 0;
+      bottom: 0; */
       padding: 20px;
       text-align: center;
       border-radius: 20px;
@@ -219,6 +219,15 @@
       overflow-wrap: break-word;
       text-align: justify !important;
     }
+
+    .listed {
+      padding-left: 20px;
+    }
+
+    .listed li {
+      text-align: start;
+    }
+
   
   
     .blurred {
